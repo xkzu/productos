@@ -1,4 +1,4 @@
-# Created at 2024-11-16T23:32:15.864
+# Created at 2024-11-17T00:44:07.437
 Boot Manifest-JAR contains absolute paths in classpath 'F:\Dev\Duoc\Fullstack 3\producto\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root
