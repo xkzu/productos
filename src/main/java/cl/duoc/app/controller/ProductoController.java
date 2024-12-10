@@ -15,6 +15,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/productos")
+@CrossOrigin(origins = "http://localhost:4200", allowedHeaders = "*", allowCredentials = "true")
 public class ProductoController {
 
     private final ProductoService productoService;
@@ -57,7 +58,8 @@ public class ProductoController {
             if (UtilProducto.isEmptyOrNull(productoDTO.getNombre())
                     || UtilProducto.isEmptyOrNull(productoDTO.getMarca())
                     || UtilProducto.isEmptyOrNull(productoDTO.getPrecio())
-                    || productoDTO.getStock() <= 0) {
+                    || UtilProducto.isEmptyOrNull(productoDTO.getDescripcion())
+                    || UtilProducto.isEmptyOrNull(productoDTO.getImagen())) {
                 return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
             }
             Producto producto = ProductoMapper.toEntity(productoDTO); //utilizamos el mapper para aplicar el patron dto

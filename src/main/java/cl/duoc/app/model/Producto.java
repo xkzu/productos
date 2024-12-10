@@ -31,6 +31,9 @@ public class Producto {
     @Column(name = "marca", nullable = false)
     private String marca;
 
-    @Column(name = "stock", nullable = false)
-    private int stock;
+    @Column(name = "descripcion", nullable = false)
+    private String descripcion;
+
+    @Column(name = "imagen", nullable = false)
+    private String imagen;
 }

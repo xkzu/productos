@@ -8,5 +8,6 @@ public class ProductoDTO {
     private String nombre;
     private String precio;
     private String marca;
-    private int stock;
+    private String descripcion;
+    private String imagen;
 }
