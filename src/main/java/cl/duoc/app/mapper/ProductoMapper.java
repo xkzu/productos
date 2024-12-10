@@ -15,7 +15,8 @@ public class ProductoMapper {
         dto.setNombre(producto.getNombre());
         dto.setPrecio(producto.getPrecio());
         dto.setMarca(producto.getMarca());
-        dto.setStock(producto.getStock());
+        dto.setDescripcion(producto.getDescripcion());
+        dto.setImagen(producto.getImagen());
         return dto;
     }
 
@@ -25,7 +26,8 @@ public class ProductoMapper {
         producto.setNombre(dto.getNombre());
         producto.setPrecio(dto.getPrecio());
         producto.setMarca(dto.getMarca());
-        producto.setStock(dto.getStock());
+        producto.setDescripcion(dto.getDescripcion());
+        producto.setImagen(dto.getImagen());
         return producto;
     }
 }
