@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+producto,cl.duoc.app,App,0,8,0,0,0,3,0,2,0,2
+producto,cl.duoc.app.mapper,ProductoMapper,0,60,0,0,0,16,0,2,0,2
+producto,cl.duoc.app.controller,ProductoController,0,155,3,19,0,42,3,16,0,8
+producto,cl.duoc.app.model,Producto,27,269,17,37,0,9,17,28,0,18
+producto,cl.duoc.app.service,ProductoServiceImpl,0,26,0,0,0,8,0,5,0,5
+producto,cl.duoc.app.dto,ProductoDTO,27,248,17,37,0,7,17,27,0,17
+producto,cl.duoc.app.util,UtilProducto,0,10,0,4,0,1,0,3,0,1
+producto,cl.duoc.app.config,CorsConfig.new WebMvcConfigurer() {...},0,47,0,0,0,7,0,2,0,2
+producto,cl.duoc.app.config,CorsConfig,0,8,0,0,0,2,0,2,0,2

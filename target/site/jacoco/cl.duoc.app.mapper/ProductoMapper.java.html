@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ProductoMapper.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">producto</a> &gt; <a href="index.source.html" class="el_package">cl.duoc.app.mapper</a> &gt; <span class="el_source">ProductoMapper.java</span></div><h1>ProductoMapper.java</h1><pre class="source lang-java linenums">package cl.duoc.app.mapper;
+
+import cl.duoc.app.dto.ProductoDTO;
+import cl.duoc.app.model.Producto;
+import org.springframework.stereotype.Component;
+
+@Component
+public class ProductoMapper {
+
+    private ProductoMapper() {}
+
+    public static ProductoDTO toDTO(Producto producto) {
+<span class="fc" id="L13">        ProductoDTO dto = new ProductoDTO();</span>
+<span class="fc" id="L14">        dto.setId(producto.getId());</span>
+<span class="fc" id="L15">        dto.setNombre(producto.getNombre());</span>
+<span class="fc" id="L16">        dto.setPrecio(producto.getPrecio());</span>
+<span class="fc" id="L17">        dto.setMarca(producto.getMarca());</span>
+<span class="fc" id="L18">        dto.setDescripcion(producto.getDescripcion());</span>
+<span class="fc" id="L19">        dto.setImagen(producto.getImagen());</span>
+<span class="fc" id="L20">        return dto;</span>
+    }
+
+    public static Producto toEntity(ProductoDTO dto) {
+<span class="fc" id="L24">        Producto producto = new Producto();</span>
+<span class="fc" id="L25">        producto.setId(dto.getId());</span>
+<span class="fc" id="L26">        producto.setNombre(dto.getNombre());</span>
+<span class="fc" id="L27">        producto.setPrecio(dto.getPrecio());</span>
+<span class="fc" id="L28">        producto.setMarca(dto.getMarca());</span>
+<span class="fc" id="L29">        producto.setDescripcion(dto.getDescripcion());</span>
+<span class="fc" id="L30">        producto.setImagen(dto.getImagen());</span>
+<span class="fc" id="L31">        return producto;</span>
+    }
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

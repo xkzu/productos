@@ -1,1 +1,8 @@
 F:\Dev\Duoc\Fullstack 3\producto\src\test\java\cl\duoc\app\AppTest.java
+F:\Dev\Duoc\Fullstack 3\producto\src\test\java\cl\duoc\app\model\ProductoTest.java
+F:\Dev\Duoc\Fullstack 3\producto\src\test\java\cl\duoc\app\config\CorsConfigTest.java
+F:\Dev\Duoc\Fullstack 3\producto\src\test\java\cl\duoc\app\mapper\ProductoMapperTest.java
+F:\Dev\Duoc\Fullstack 3\producto\src\test\java\cl\duoc\app\controller\ProductoControllerTest.java
+F:\Dev\Duoc\Fullstack 3\producto\src\test\java\cl\duoc\app\dto\ProductoDTOTest.java
+F:\Dev\Duoc\Fullstack 3\producto\src\test\java\cl\duoc\app\util\UtilProductoTest.java
+F:\Dev\Duoc\Fullstack 3\producto\src\test\java\cl\duoc\app\service\ProductoServiceImplTest.java

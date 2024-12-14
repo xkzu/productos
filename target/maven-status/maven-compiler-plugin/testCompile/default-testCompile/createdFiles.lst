@@ -1,1 +1,8 @@
 cl\duoc\app\AppTest.class
+cl\duoc\app\config\CorsConfigTest.class
+cl\duoc\app\util\UtilProductoTest.class
+cl\duoc\app\mapper\ProductoMapperTest.class
+cl\duoc\app\dto\ProductoDTOTest.class
+cl\duoc\app\model\ProductoTest.class
+cl\duoc\app\controller\ProductoControllerTest.class
+cl\duoc\app\service\ProductoServiceImplTest.class

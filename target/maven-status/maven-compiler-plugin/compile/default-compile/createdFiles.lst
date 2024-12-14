@@ -1,10 +1,11 @@
-cl\duoc\app\mapper\ProductoMapper.class
-cl\duoc\app\dto\ProductoDTO.class
-cl\duoc\app\service\ProductoServiceImpl.class
 cl\duoc\app\App.class
-cl\duoc\app\config\Config.class
 cl\duoc\app\repository\ProductoRepository.class
 cl\duoc\app\service\ProductoService.class
 cl\duoc\app\controller\ProductoController.class
 cl\duoc\app\model\Producto.class
+cl\duoc\app\mapper\ProductoMapper.class
+cl\duoc\app\dto\ProductoDTO.class
+cl\duoc\app\service\ProductoServiceImpl.class
+cl\duoc\app\config\CorsConfig.class
+cl\duoc\app\config\CorsConfig$1.class
 cl\duoc\app\util\UtilProducto.class
