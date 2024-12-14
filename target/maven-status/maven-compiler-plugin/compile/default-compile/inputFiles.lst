@@ -1,3 +1,4 @@
+F:\Dev\Duoc\Fullstack 3\producto\src\main\java\cl\duoc\app\config\CorsConfig.java
 F:\Dev\Duoc\Fullstack 3\producto\src\main\java\cl\duoc\app\service\ProductoService.java
 F:\Dev\Duoc\Fullstack 3\producto\src\main\java\cl\duoc\app\App.java
 F:\Dev\Duoc\Fullstack 3\producto\src\main\java\cl\duoc\app\dto\ProductoDTO.java
@@ -7,4 +8,3 @@ F:\Dev\Duoc\Fullstack 3\producto\src\main\java\cl\duoc\app\controller\ProductoCo
 F:\Dev\Duoc\Fullstack 3\producto\src\main\java\cl\duoc\app\service\ProductoServiceImpl.java
 F:\Dev\Duoc\Fullstack 3\producto\src\main\java\cl\duoc\app\mapper\ProductoMapper.java
 F:\Dev\Duoc\Fullstack 3\producto\src\main\java\cl\duoc\app\repository\ProductoRepository.java
-F:\Dev\Duoc\Fullstack 3\producto\src\main\java\cl\duoc\app\config\Config.java
