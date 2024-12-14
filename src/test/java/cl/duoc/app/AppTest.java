@@ -1,38 +1,29 @@
 package cl.duoc.app;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.junit.jupiter.api.Test;
+import org.mockito.MockedStatic;
+import org.mockito.Mockito;
+import org.springframework.boot.SpringApplication;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
+class AppTest {
+
+    @Test
+    void testMainWithArgs() {
+        String[] args = {"--spring.profiles.active=test"};
+
+        try (MockedStatic<SpringApplication> mocked = Mockito.mockStatic(SpringApplication.class)) {
+            App.main(args);
+            mocked.verify(() -> SpringApplication.run(App.class, "--spring.profiles.active=test"));
+        }
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
+    @Test
+    void testMainNoArgs() {
+        String[] args = {};
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+        try (MockedStatic<SpringApplication> mocked = Mockito.mockStatic(SpringApplication.class)) {
+            App.main(args);
+            mocked.verify(() -> SpringApplication.run(App.class));
+        }
     }
 }
