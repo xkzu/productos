@@ -10,5 +10,5 @@ services:
       - spring.datasource.url=jdbc:oracle:thin:@fullstack3_high?TNS_ADMIN=/app/oracle_wallet/
       - spring.datasource.username=ADMIN
       - spring.datasource.password=OracleCloud12321
-      - cors.allowed-origins=http://localhost:4200,http://34.235.145.21:4200
+      - cors.allowed-origins=http://localhost:4200,http://54.165.184.60:4200
     restart: always
